@@ -93,7 +93,7 @@ def show_blues_page():
     
     # Usar CSS para personalizar el ancho de las columnas y centrar el contenido
     df_grados_styled = f'<style>.dataframe td, .dataframe th {{text-align: center; width: 120px;}}</style>{df_grados_html}'
-
+    st.write("Índices:")
     
     # Mostrar el DataFrame en Streamlit
     st.markdown(df_grados_styled, unsafe_allow_html=True)

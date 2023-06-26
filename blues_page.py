@@ -63,11 +63,11 @@ def show_blues_page():
     """)
 
 
-    # Crear la selección desplegable para las tonalidades
-    tonalidad_seleccionada = st.selectbox('Selecciona una tonalidad:', tonalidades)
+    # Crear la selección desplegable para las tonalidades en la barra lateral
+    tonalidad_seleccionada = st.sidebar.selectbox('Selecciona una tonalidad:', tonalidades)
 
-    # Crear la selección desplegable para las progresiones
-    opcion_seleccionada = st.selectbox('Escoge una progresión:', list(progresiones.keys()))
+    # Crear la selección desplegable para las progresiones en la barra lateral
+    opcion_seleccionada = st.sidebar.selectbox('Escoge una progresión:', list(progresiones.keys()))
 
     # Obtener la progresión seleccionada
     progresion_seleccionada = progresiones[opcion_seleccionada]

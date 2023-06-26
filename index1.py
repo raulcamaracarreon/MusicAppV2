@@ -17,3 +17,9 @@ pagina_seleccionada = st.sidebar.radio("Selecciona una función", list(paginas.k
 # Mostrar la página seleccionada
 paginas[pagina_seleccionada]()
 
+# Añade varias líneas vacías
+for _ in range(10):
+        st.sidebar.write("")
+
+    # Añade tu leyenda
+st.sidebar.markdown("**App diseñada con Datamente**")

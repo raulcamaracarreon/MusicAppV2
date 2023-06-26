@@ -92,8 +92,7 @@ def show_blues_page():
     df_grados_html = df_grados.to_html(index=False, header=False)
     
     # Usar CSS para personalizar el ancho de las columnas y centrar el contenido
-    df_grados_styled = f'<style>.dataframe td, .dataframe th {{text-align: center; width: 120px;}}</style>{df_grados_html}'
-    
+    df_grados_styled = f'<style>.dataframe td, .dataframe th {{text-align: center; width: 120px; min-width: 120px; max-width: 120px;}}</style>{df_grados_html}'
     st.write("Progresión en grados:")
     
     # Mostrar el DataFrame en Streamlit

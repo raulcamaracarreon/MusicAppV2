@@ -35,7 +35,7 @@ def show_scale_page():
         "Blues": [3, 2, 1, 1, 3, 2],
         "Disminuida (T-M)": [1, 2, 1, 2, 1, 2, 1, 2],
         "Disminuida (M-T)": [2, 1, 2, 1, 2, 1, 2, 1],
-        "Tonos": [2, 2, 2, 2, 2, 2],
+        "de tonos enteros": [2, 2, 2, 2, 2, 2],
         "Augmentada": [3, 1, 3, 1, 3, 1],
         "Armónica doble": [1, 3, 1, 2, 1, 3, 1],
         "Napolitana menor": [1, 2, 2, 2, 1, 3, 1],

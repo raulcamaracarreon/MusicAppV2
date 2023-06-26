@@ -73,8 +73,8 @@ def show_scale_page():
 
     escalas = list(SCALE_FORMULAS.keys()) + list(ADDITIONAL_SCALE_FORMULAS.keys())
 
-    tone = st.sidebar.selectbox("Elige un tono", TONES)
-    scale_type = st.sidebar.selectbox("Elige un tipo de escala", escalas)
+    tone = st.sidebar.selectbox("Elige un tono:", TONES)
+    scale_type = st.sidebar.selectbox("Elige un tipo de escala:", escalas)
 
     if scale_type in SCALE_FORMULAS:
         scale_formula = SCALE_FORMULAS[scale_type]

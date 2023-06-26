@@ -107,3 +107,4 @@ def show_blues_page():
     
     # Agregar una línea en blanco para separar los dos dataframes
     st.write("")
+

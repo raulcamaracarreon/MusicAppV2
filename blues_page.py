@@ -53,16 +53,6 @@ def show_blues_page():
     # Encabezado
     st.title("Progresiones de Blues")
 
-
-    
-    # Instrucciones
-    st.markdown("""
-    1. **Selecciona una tonalidad**
-    2. **Selecciona una progresión**
-    3. **Ver progresión**: Una vez que hayas seleccionado una tonalidad y una progresión, la aplicación mostrará tu progresión tanto en números romanos como en notas correspondientes.
-    """)
-
-
     # Crear la selección desplegable para las tonalidades en la barra lateral
     tonalidad_seleccionada = st.sidebar.selectbox('Selecciona una tonalidad:', tonalidades)
 

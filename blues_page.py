@@ -70,37 +70,40 @@ def show_blues_page():
 
     # Crear un dataframe para las notas
     df_notas = pd.DataFrame(progresion_transpuesta)
-
+    
     # Convertir el DataFrame a HTML sin índices ni encabezados
     df_notas_html = df_notas.to_html(index=False, header=False)
-
-    # Usar CSS para personalizar el ancho de las columnas
-    df_notas_styled = f'<style>.dataframe th {{width: 120px;}}</style>{df_notas_html}'
-
+    
+    # Usar CSS para personalizar el ancho de las columnas y centrar el contenido
+    df_notas_styled = f'<style>.dataframe td, .dataframe th {{text-align: center; width: 120px;}}</style>{df_notas_html}'
+    
     st.write("Progresión de acordes:")
-
+    
     # Mostrar el DataFrame en Streamlit
     st.markdown(df_notas_styled, unsafe_allow_html=True)
-
+    
     # Agregar una línea en blanco para separar los dos dataframes
     st.write("")
-
+    
     # Crear un dataframe para la progresión en numeración romana
     df_grados = pd.DataFrame(progresion_seleccionada)
-
+    
     # Convertir el DataFrame a HTML sin índices ni encabezados
     df_grados_html = df_grados.to_html(index=False, header=False)
-
+    
+    # Usar CSS para personalizar el ancho de las columnas y centrar el contenido
+    df_grados_styled = f'<style>.dataframe td, .dataframe th {{text-align: center; width: 120px;}}</style>{df_grados_html}'
+    
     st.write("Progresión en grados:")
-
+    
     # Mostrar el DataFrame en Streamlit
-    st.markdown(df_grados_html, unsafe_allow_html=True)
-
+    st.markdown(df_grados_styled, unsafe_allow_html=True)
+    
     # Agregar una línea en blanco para separar los dos dataframes
     st.write("")
-
+    
     # Agregar una línea en blanco para separar los dos dataframes
     st.write("")
-
+    
     # Agregar una línea en blanco para separar los dos dataframes
     st.write("")

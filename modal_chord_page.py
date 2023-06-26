@@ -57,8 +57,8 @@ def show_modal_chord_page():
 
 
 
-    mode = st.sidebar.selectbox("Elige un modo", modes)
-    tone = st.sidebar.selectbox("Elige un tono", tones)
+    mode = st.sidebar.selectbox("Elige un modo:", modes)
+    tone = st.sidebar.selectbox("Elige un tono:", tones)
 
     data = data_dict[mode]
     present_info(data, tone)

@@ -18,7 +18,7 @@ pagina_seleccionada = st.sidebar.radio("Selecciona una función", list(paginas.k
 paginas[pagina_seleccionada]()
 
 # Añade varias líneas vacías
-for _ in range(5):
+for _ in range(15):
         st.sidebar.write("")
 
     # Añade tu leyenda

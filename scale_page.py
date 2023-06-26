@@ -66,7 +66,7 @@ def show_scale_page():
         "Mixolidia b13": [2, 2, 1, 2, 1, 2, 2],
         "Locria natural 2": [2, 1, 2, 1, 2, 2, 2],
         "Super Locria": [1, 2, 1, 2, 2, 2, 2],
-        "Hinduú": [2, 2, 1, 2, 1, 2, 2],
+        "Hindú": [2, 2, 1, 2, 1, 2, 2],
         "Jónica Aumentada": [2, 2, 2, 1, 2, 2, 1],
         "Dórica #4": [2, 1, 3, 1, 2, 2, 1]
     }

@@ -37,15 +37,6 @@ def show_modal_chord_page():
     def get_row_by_tone(data, tone):
         return data.loc[data['Tono'] == tone]
 
-    st.markdown("""
-
-    1. **Elige un modo y un tono** en la barra lateral a la izquierda.
-    2. **Explora** la información que se muestra sobre la progresión modal.
-    3. **Diviértete** explorando y experimentando con diferentes combinaciones. 
-    """, unsafe_allow_html=True)
-
-
-
     def present_info(data, tone):
         row = get_row_by_tone(data, tone)
 

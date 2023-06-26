@@ -12,7 +12,7 @@ paginas = {
 }
 
 # Crear un menú de selección en la barra lateral
-pagina_seleccionada = st.sidebar.radio("Selecciona una función", list(paginas.keys()))
+pagina_seleccionada = st.sidebar.radio("Selecciona una función: ", list(paginas.keys()))
 
 # Mostrar la página seleccionada
 paginas[pagina_seleccionada]()

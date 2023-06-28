@@ -40,7 +40,7 @@ def show_blues_page():
 
     # Definir las progresiones
     progresiones = {
-        "Escala básica de blues": [["I", "I", "I", "I"], ["IV", "IV", "I", "I"], ["V", "IV", "I", "I"]],
+        "Progresión básica de blues": [["I", "I", "I", "I"], ["IV", "IV", "I", "I"], ["V", "IV", "I", "I"]],
         "Básica con final en dominante": [["I", "I", "I", "I"], ["IV", "IV", "I", "I"], ["V", "IV", "I", "V"]],
         "Estándar tradicional": [["I", "IV", "I", "I"], ["IV", "IV", "I", "I"], ["V", "IV", "I", "V"]],
         "Tradicional II-V-I en barra 3": [["I", "IV", "I", "I"], ["IV", "IV", "I", "I"], ["IIm7", "V", "I", "V"]],

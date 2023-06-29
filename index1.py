@@ -22,4 +22,4 @@ for _ in range(7):
         st.sidebar.write("")
 
     # Añade tu leyenda
-st.sidebar.markdown('<p style="font-size: 10px;color:gray;"><b>Idea original y programación: Raúl Cámara</b></p>', unsafe_allow_html=True)
+st.sidebar.markdown('<p style="font-size: 10px;color:gray;"><b>Hipnonauta</b></p>', unsafe_allow_html=True)

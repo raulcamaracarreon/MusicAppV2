@@ -3,7 +3,7 @@ from blues_page import show_blues_page
 from modal_chord_page import show_modal_chord_page
 from scale_page import show_scale_page
 
-# Definir las páginas en tu aplicación
+# Definir las páginas
 paginas = {
     "Progresiones de blues": show_blues_page,
     "Progresiones modales de acordes": show_modal_chord_page,
